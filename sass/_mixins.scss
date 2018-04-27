@@ -1,0 +1,21 @@
+@mixin ellipses($width){
+  width: $width;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+@mixin placeholder-style($val){
+  &:-moz-placeholder{
+    color: $val;
+  }
+  &::-moz-placeholder{
+    color: $val;
+  }
+  &:-ms-input-placeholder{
+    color: $val;
+  }
+  &::-webkit-input-placeholder{
+    color: $val;
+  }
+}

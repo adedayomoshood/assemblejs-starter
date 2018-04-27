@@ -1,0 +1,34 @@
+{
+  "name": "assemble_js_starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "assemblefile.js",
+  "devDependencies": {
+    "assemble": "^0.24.3",
+    "autoprefixer": "^8.2.0",
+    "base-watch": "^0.1.3",
+    "gulp": "^3.9.1",
+    "gulp-extname": "^0.2.2",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-postcss": "^7.0.1",
+    "gulp-sass": "^3.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adedayomoshood/assemblejs-starter.git"
+  },
+  "keywords": [
+    "AssembleJs",
+    "Sass",
+    "Gulp"
+  ],
+  "author": "Adedayo Moshood",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adedayomoshood/assemblejs-starter/issues"
+  },
+  "homepage": "https://github.com/adedayomoshood/assemblejs-starter#readme"
+}
